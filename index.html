@@ -1,7 +1,23 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description: "Kan Chen's project website"
 ---
+
+<div class="row project-wrapper">
+    <div class="col-md-7 project-cover">
+        <a href="#">
+            <img class="img-responsive" src="{{ "/img/baylearn.png " | prepend: site.baseurl }}" alt="">
+            <!-- <img class="img-responsive" src="http://placehold.it/700x350"> -->
+        </a>
+    </div>
+    <div class="col-md-5">
+        <h3>Attention Based Model in Visual Question Answering</h3>
+        <h4 class="post-subtitile">Posted on September 6, 2015</h4>
+        <p>Visual question answering task (VQA) automatically generates an answer for a given image and an image-related question. Attention is of significant importance in VQA because different questions inquire about different image regions. We propose an attention model for VQA that explicitly exploits the questions to guide the attention to generate  appropriate answers.</p>
+        <a class="btn btn-primary">View Details <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
+<hr>
 
 {% for post in paginator.posts %}
 <div class="post-preview">
@@ -29,7 +45,7 @@ description: "A Clean Blog Theme by Start Bootstrap"
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts <span class="glyphicon glyphicon-chevron-right"></a>
     </li>
     {% endif %}
 </ul>

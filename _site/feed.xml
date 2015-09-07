@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clean Blog</title>
-    <description>Write your site description here. It will be used as your sites meta description as well!</description>
+    <title>Wind in Spring</title>
+    <description>Welcome to Kan Chen&#39;s project website!</description>
     <link>http://wind09.github.io/</link>
     <atom:link href="http://wind09.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Sep 2015 23:32:40 -0700</pubDate>
-    <lastBuildDate>Wed, 02 Sep 2015 23:32:40 -0700</lastBuildDate>
+    <pubDate>Sun, 06 Sep 2015 23:55:17 -0700</pubDate>
+    <lastBuildDate>Sun, 06 Sep 2015 23:55:17 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
