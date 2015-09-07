@@ -1,0 +1,16 @@
+# Site settings
+title: Wind in Spring
+header-img: img/home-bg.jpg
+email: chenkan0007@gmail.com
+description: "Welcome to Kan Chen's project website!"
+baseurl: ""
+url: "http://wind09.github.io"
+twitter_username: chenkan0007
+github_username:  wind09
+linkedin_username:  pub/kan-chen/57/4b9/52
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
