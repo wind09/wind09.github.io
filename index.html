@@ -3,24 +3,36 @@ layout: page
 description: "Kan Chen's project website"
 ---
 
+{% for post in paginator.posts %}
 <div class="row project-wrapper">
+<!-- <div class="post-preview"> -->
     <div class="col-md-7 project-cover">
-        <a href="#">
-            <img class="img-responsive" src="{{ "/img/baylearn.png " | prepend: site.baseurl }}" alt="">
+        {% if post.abstract-img %}
+            <img class="img-reponsive" src="{{ post.abstract-img | prepend: site.baseurl }}" alt="">
+        {% else %}
+            <img class="img-reponsive" src="{{ "/img/Proj_DeepLSTM.png" | prepend: site.baseurl }}" alt="">
+        {% endif %}
+            <!-- <img class="img-responsive" src="{{ post.header-img | prepend: site.baseurl }}" alt=""> -->
             <!-- <img class="img-responsive" src="http://placehold.it/700x350"> -->
-        </a>
     </div>
     <div class="col-md-5">
-        <h3>Attention Based Model in Visual Question Answering</h3>
-        <p>Visual question answering task (VQA) automatically generates an answer for a given image and an image-related question. Attention is of significant importance in VQA because different questions inquire about different image regions. We propose an attention model for VQA that explicitly exploits the questions to guide the attention to generate  appropriate answers.</p>
-        <a class="btn btn-primary">View Details <span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div>
-</div>
-<hr>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+        <!-- <a href="{{ post.url | prepend: site.baseurl }}"> -->
+        <h3 class="post-title">            {{ post.title }}
+        </h3>
+        {% if post.subtitle %}
+        <h4 class="post-subtitle">
+            {{ post.subtitle }}
+        </h4>
+        {% endif %} 
+        <!-- </a>    -->
+        <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>   
+        <p>{{ post.excerpt }}</p>
+        {% if post.doc-link %}
+            <a class="btn btn-primary" href="{{ post.doc-link | prepend: site.baseurl }}">View Details <span class="glyphicon glyphicon-chevron-right"></span></a>
+        {% endif %}
+    </div>
+<!--     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
         </h2>
         {% if post.subtitle %}
@@ -28,8 +40,8 @@ description: "Kan Chen's project website"
             {{ post.subtitle }}
         </h3>
         {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    </a> -->
+    <!-- <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p> -->
 </div>
 <hr>
 {% endfor %}
