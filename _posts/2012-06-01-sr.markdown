@@ -2,7 +2,7 @@
 layout:     post
 title:      "Image Super-Resolution Via Analysis Sparse Prior"
 date:       2012-06-01 12:00:00
-author:     "Start Bootstrap"
+author:     "Kan Chen"
 header-img: "img/post-bg-default.jpg"
 abstract-img: "img/post-2012-06-01-abs.png"
 doc-link: "docs/kan_chen_sr.pdf"

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Attention Based Model in Visual Question Answering"
 date:       2015-09-07 12:00:00
-author:     "Start Bootstrap"
+author:     "Kan Chen"
 header-img: "img/post-bg-default.jpg"
 abstract-img: "img/post-2015-09-07-abs.png"
 ---

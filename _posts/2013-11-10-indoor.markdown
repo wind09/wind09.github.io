@@ -2,7 +2,7 @@
 layout:     post
 title:      "Estimating the 3D Layout of Indoor Scenes and its Clutter from Depth Sensors"
 date:       2013-11-10 12:00:00
-author:     "Start Bootstrap"
+author:     "Kan Chen"
 header-img: "img/post-bg-default.jpg"
 doc-link: "docs/kan_chen_iccv13.pdf"
 abstract-img: "img/post-2013-11-10-abs.png"
