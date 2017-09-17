@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "Query-guided Regression Network with Context Policy for Phrase Grounding"
+date:       2017-09-01 12:00:00
+author:     "Kan Chen"
+header-img: "img/post-bg-default.jpg"
+abstract-img: "img/post-2017-09-01-abs.png"
+doc-link: "https://arxiv.org/pdf/1708.01676.pdf"
+---
+
+<p>We adopt a spatial regression method to break the performance limit, and introduce reinforcement learning techniques to further leverage semantic context information. We propose a novel Query-guided Regression network with Context policy (QRC Net) which jointly learns a Proposal Generation Network (PGN), a Query-guided Regression Network (QRN) and a Context Policy Network (CPN).</p>
