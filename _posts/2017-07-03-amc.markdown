@@ -6,6 +6,7 @@ author:     "Kan Chen"
 header-img: "img/post-bg-default.jpg"
 abstract-img: "img/post-2017-07-03-abs.png"
 doc-link: "https://arxiv.org/pdf/1704.00763.pdf"
+code-link: "https://github.com/kanchen-usc/amc_att"
 ---
 
 <p>We leverage visual and textual modalities for image search by learning their correlation with input query. According to the intent of query, attention mechanism can be introduced to adaptively balance the importance of different modalities. We propose a novel Attention guided Multi-modal Correlation (AMC) learning method which consists of a jointly learned hierarchy of intra and inter-attention networks.</p>

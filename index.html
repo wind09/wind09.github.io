@@ -31,6 +31,9 @@ description: "Welcome to my personal website"
         {% if post.doc-link %}
             <a class="btn btn-primary" href="{{ post.doc-link | prepend: site.baseurl }}">View Details <span class="glyphicon glyphicon-chevron-right"></span></a>
         {% endif %}
+        {% if post.code-link %}
+            <a class="btn btn-primary" href="{{ post.code-link | prepend: site.baseurl }}">Github <span class="glyphicon glyphicon-chevron-right"></span></a>
+        {% endif %}
     </div>
 <!--     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
