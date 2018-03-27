@@ -4,7 +4,7 @@ title:      "Knowledge Aided Consistency for Weakly Supervised Phrase Grounding"
 date:       2018-03-20 12:00:00
 author:     "Kan Chen"
 header-img: "img/post-bg-default.jpg"
-abstract-img: "img/post-2017-09-01-abs.png"
+abstract-img: "img/post-2018-03-20-abs.png"
 doc-link: "https://arxiv.org/pdf/1803.03879.pdf"
 code-link: "https://github.com/kanchen-usc/KAC-Net"
 ---
