@@ -3,9 +3,8 @@ layout:     post
 title:      "Estimating the 3D Layout of Indoor Scenes and its Clutter from Depth Sensors"
 date:       2013-11-10 12:00:00
 author:     "Kan Chen"
-header-img: "img/post-bg-default.jpg"
-doc-link: "docs/kan_chen_iccv13.pdf"
-abstract-img: "img/post-2013-11-10-abs.png"
+doc-link: "../../docs/kan_chen_iccv13.pdf"
+abstract-img: "../../img/post-2013-11-10-abs.png"
 ---
 
-<p>In this paper we propose an approach to jointly estimate the layout of rooms as well as the clutter present in the scene using RGB-D data. Towards this goal, we propose an effective model that is able to exploit both depth and appearance features, which are complementary.  Furthermore, our approach is efficient as we exploit the inherent decomposition of additive potentials.  We demonstrate the effectiveness of our approach on the challenging NYU v2 dataset and show that employing depth reduces the layout error by 6% and the clutter estimation by 13%.</p>
+<p class="bigger_p_font">In this paper we propose an approach to jointly estimate the layout of rooms as well as the clutter present in the scene using RGB-D data. Towards this goal, we propose an effective model that is able to exploit both depth and appearance features, which are complementary.  Furthermore, our approach is efficient as we exploit the inherent decomposition of additive potentials.  We demonstrate the effectiveness of our approach on the challenging NYU v2 dataset and show that employing depth reduces the layout error by 6% and the clutter estimation by 13%.</p>

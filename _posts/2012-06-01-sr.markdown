@@ -3,10 +3,10 @@ layout:     post
 title:      "Image Super-Resolution Via Analysis Sparse Prior"
 date:       2012-06-01 12:00:00
 author:     "Kan Chen"
-header-img: "../img/post-bg-default.jpg"
-abstract-img: "../img/post-2012-06-01-abs.png"
-doc-link: "../docs/kan_chen_sr.pdf"
+header-img: "../../img/post-bg-default.jpg"
+abstract-img: "../../img/post-2012-06-01-abs.png"
+doc-link: "../../docs/kan_chen_sr.pdf"
 ---
 
-<p>In this letter, we present a new algorithm for a single image super-resolution using the analysis sparse prior in the l-alpha-beta color space. Experimental results show that our algorithm outperforms other existing state-of-the-art methods. In addition, due to the high scalability of our algorithm, key modules of the proposed algorithm can be integrated with other super resolution
+<p class="bigger_p_font">In this letter, we present a new algorithm for a single image super-resolution using the analysis sparse prior in the l-alpha-beta color space. Experimental results show that our algorithm outperforms other existing state-of-the-art methods. In addition, due to the high scalability of our algorithm, key modules of the proposed algorithm can be integrated with other super resolution
 algorithms.</p>

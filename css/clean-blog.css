@@ -516,6 +516,10 @@ p.contact-desc {
   font-weight: 400;
 }
 
+.bigger_p_font {
+  font-size: 16px;
+}
+
 a.contact-icon {
   color: black;
 }

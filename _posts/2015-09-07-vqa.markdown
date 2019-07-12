@@ -3,9 +3,8 @@ layout:     post
 title:      "Attention Based Model in Visual Question Answering"
 date:       2015-09-07 12:00:00
 author:     "Kan Chen"
-header-img: "img/post-bg-default.jpg"
-abstract-img: "img/post-2015-09-07-abs.png"
-doc-link: "docs/kan_chen_vqa_baylearn.pdf"
+abstract-img: "../../img/post-2015-09-07-abs.png"
+doc-link: "../../docs/kan_chen_vqa_baylearn.pdf"
 ---
 
-<p>Visual question answering task (VQA) automatically generates an answer for a given image and an image-related question. Attention is of significant importance in VQA because different questions inquire about different image regions. We propose an attention model for VQA that explicitly exploits the questions to guide the attention to generate appropriate answers.</p>
+<p class="bigger_p_font">Visual question answering task (VQA) automatically generates an answer for a given image and an image-related question. Attention is of significant importance in VQA because different questions inquire about different image regions. We propose an attention model for VQA that explicitly exploits the questions to guide the attention to generate appropriate answers.</p>
