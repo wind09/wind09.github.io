@@ -7,4 +7,4 @@ abstract-img: "../../img/post-2017-07-05-abs.jpg"
 doc-link: "https://zhuanlan.zhihu.com/p/27657019"
 ---
 
-<p class="bigger_p_font">This is my first blog on travel. I hope share my experience on the roadtrip, which may provide useful tips for your future plan. I travelled with my roomates and friends for master graduation. We spent 7 days on the Route 66 and went through ~2/3 of USA. This experience is unique and I share our plan, images and my feelings in this post (in Chinese). </p>
+<p class="bigger_p_font">This is my first blog on travel. I hope to share my experience on the roadtrip, which may provide useful tips for your future plan. I traveled with my roomates and friends for master graduation. We spent 7 days on the Route 66 and went through ~2/3 of USA. This experience is unique and I would like to share our plan, images and my feelings in this post (in Chinese). </p>
