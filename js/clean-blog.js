@@ -33,7 +33,7 @@ $(function() {
             var message = $("textarea#message").val();
             var ebody = "message: "+message+"\r\n"+"phone:"+phone;
             var msg = encodeURIComponent(ebody);
-            var link = 'mailto:kanchen@usc.edu?cc=' + email
+            var link = 'mailto:kanchen18@fb.com?cc=' + email
                 +'&subject='+name+'&body='+msg;           
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -57,7 +57,7 @@ $(function() {
             //     },
             // })
             $.ajax({
-                url: "./contact_me.php",
+                url: "../js/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
