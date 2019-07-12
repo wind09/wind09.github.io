@@ -2,65 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kan Chen</title>
-    <description>Welcome to Kan Chen&#39;s personal website!</description>
-    <link>http://wind09.github.io/</link>
-    <atom:link href="http://wind09.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Sep 2017 15:21:17 -0700</pubDate>
-    <lastBuildDate>Mon, 18 Sep 2017 15:21:17 -0700</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <description>Welcome to Kan Chen's personal website!</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 12 Jul 2019 01:32:04 -0700</pubDate>
+    <lastBuildDate>Fri, 12 Jul 2019 01:32:04 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Knowledge Aided Consistency for Weakly Supervised Phrase Grounding</title>
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;Previous methods address weakly supervised grounding by training a grounding system via learning to reconstruct language information contained in input queries from predicted proposals. Instead, we explore the consistency contained in both visual and language modalities, and leverage complementary external knowledge to facilitate weakly supervised grounding.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Mar 2018 05:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/03/20/kac/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/20/kac/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Query-guided Regression Network with Context Policy for Phrase Grounding</title>
-        <description>&lt;p&gt;We adopt a spatial regression method to break the performance limit, and introduce reinforcement learning techniques to further leverage semantic context information. We propose a novel Query-guided Regression network with Context policy (QRC Net) which jointly learns a Proposal Generation Network (PGN), a Query-guided Regression Network (QRN) and a Context Policy Network (CPN).&lt;/p&gt;
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;We adopt a spatial regression method to break the performance limit, and introduce reinforcement learning techniques to further leverage semantic context information. We propose a novel Query-guided Regression network with Context policy (QRC Net) which jointly learns a Proposal Generation Network (PGN), a Query-guided Regression Network (QRN) and a Context Policy Network (CPN).&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Sep 2017 05:00:00 -0700</pubDate>
-        <link>http://wind09.github.io/2017/09/01/qrc/</link>
-        <guid isPermaLink="true">http://wind09.github.io/2017/09/01/qrc/</guid>
+        <link>http://localhost:4000/2017/09/01/qrc/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/01/qrc/</guid>
         
         
       </item>
     
       <item>
         <title>Attention guided Multi-modal Correlation Learning for Image Search</title>
-        <description>&lt;p&gt;We leverage visual and textual modalities for image search by learning their correlation with input query. According to the intent of query, attention mechanism can be introduced to adaptively balance the importance of different modalities. We propose a novel Attention guided Multi-modal Correlation (AMC) learning method which consists of a jointly learned hierarchy of intra and inter-attention networks.&lt;/p&gt;
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;We leverage visual and textual modalities for image search by learning their correlation with input query. According to the intent of query, attention mechanism can be introduced to adaptively balance the importance of different modalities. We propose a novel Attention guided Multi-modal Correlation (AMC) learning method which consists of a jointly learned hierarchy of intra and inter-attention networks.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Jul 2017 05:00:00 -0700</pubDate>
-        <link>http://wind09.github.io/2017/07/03/amc/</link>
-        <guid isPermaLink="true">http://wind09.github.io/2017/07/03/amc/</guid>
+        <link>http://localhost:4000/2017/07/03/amc/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/03/amc/</guid>
         
         
       </item>
     
       <item>
         <title>Attention Based Model in Visual Question Answering</title>
-        <description>&lt;p&gt;Visual question answering task (VQA) automatically generates an answer for a given image and an image-related question. Attention is of significant importance in VQA because different questions inquire about different image regions. We propose an attention model for VQA that explicitly exploits the questions to guide the attention to generate appropriate answers.&lt;/p&gt;
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;Visual question answering task (VQA) automatically generates an answer for a given image and an image-related question. Attention is of significant importance in VQA because different questions inquire about different image regions. We propose an attention model for VQA that explicitly exploits the questions to guide the attention to generate appropriate answers.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Sep 2015 05:00:00 -0700</pubDate>
-        <link>http://wind09.github.io/2015/09/07/vqa/</link>
-        <guid isPermaLink="true">http://wind09.github.io/2015/09/07/vqa/</guid>
+        <link>http://localhost:4000/2015/09/07/vqa/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/07/vqa/</guid>
         
         
       </item>
     
       <item>
         <title>Estimating the 3D Layout of Indoor Scenes and its Clutter from Depth Sensors</title>
-        <description>&lt;p&gt;In this paper we propose an approach to jointly estimate the layout of rooms as well as the clutter present in the scene using RGB-D data. Towards this goal, we propose an effective model that is able to exploit both depth and appearance features, which are complementary.  Furthermore, our approach is efficient as we exploit the inherent decomposition of additive potentials.  We demonstrate the effectiveness of our approach on the challenging NYU v2 dataset and show that employing depth reduces the layout error by 6% and the clutter estimation by 13%.&lt;/p&gt;
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;In this paper we propose an approach to jointly estimate the layout of rooms as well as the clutter present in the scene using RGB-D data. Towards this goal, we propose an effective model that is able to exploit both depth and appearance features, which are complementary.  Furthermore, our approach is efficient as we exploit the inherent decomposition of additive potentials.  We demonstrate the effectiveness of our approach on the challenging NYU v2 dataset and show that employing depth reduces the layout error by 6% and the clutter estimation by 13%.&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Nov 2013 04:00:00 -0800</pubDate>
-        <link>http://wind09.github.io/2013/11/10/indoor/</link>
-        <guid isPermaLink="true">http://wind09.github.io/2013/11/10/indoor/</guid>
+        <link>http://localhost:4000/2013/11/10/indoor/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/11/10/indoor/</guid>
         
         
       </item>
     
       <item>
         <title>Image Super-Resolution Via Analysis Sparse Prior</title>
-        <description>&lt;p&gt;In this letter, we present a new algorithm for a single image super-resolution using the analysis sparse prior in the l-alpha-beta color space. Experimental results show that our algorithm outperforms other existing state-of-the-art methods. In addition, due to the high scalability of our algorithm, key modules of the proposed algorithm can be integrated with other super resolution
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;In this letter, we present a new algorithm for a single image super-resolution using the analysis sparse prior in the l-alpha-beta color space. Experimental results show that our algorithm outperforms other existing state-of-the-art methods. In addition, due to the high scalability of our algorithm, key modules of the proposed algorithm can be integrated with other super resolution
 algorithms.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jun 2012 05:00:00 -0700</pubDate>
-        <link>http://wind09.github.io/2012/06/01/sr/</link>
-        <guid isPermaLink="true">http://wind09.github.io/2012/06/01/sr/</guid>
+        <link>http://localhost:4000/2012/06/01/sr/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/06/01/sr/</guid>
         
         
       </item>

@@ -2,15 +2,35 @@
 <html lang="en">
 
 <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106635958-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106635958-1');
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-106635958-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Welcome to Kan Chen's personal website!">
 
-    <title>Query-guided Regression Network with Context Policy for Phrase Grounding - Kan Chen</title>
+    <title>Blog - Kan Chen</title>
 
-    <link rel="canonical" href="http://wind09.github.io/2017/07/03/qrc/">
+    <link rel="canonical" href="http://localhost:4000/blog/page2/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -64,7 +84,7 @@
                     <a href="/">Home</a>
                 </li>                
                 <li>
-                    <a href="/about">About</a>
+                    <a href="/blog">Blog</a>
                 </li>
                 <li>
                     <a href="/publication">Publication</a>
@@ -80,45 +100,74 @@
 </nav>
 
 
-    <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/post-bg-default.jpg')">
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg_ori.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>Query-guided Regression Network with Context Policy for Phrase Grounding</h1>
-                    
-                    <span class="meta">Posted by Kan Chen on July 3, 2017</span>
+            <div class="col-lg-7 col-lg-offset-3 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Blog</h1>
+                    <hr class="small">
+                    <span class="subheading">Share . Communicate . Innovate</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-				<p>We leverage visual and textual modalities for image search by learning their correlation with input query. According to the intent of query, attention mechanism can be introduced to adaptively balance the importance of different modalities. We propose a novel Attention guided Multi-modal Correlation (AMC) learning method which consists of a jointly learned hierarchy of intra and inter-attention networks.</p>
-
-
-                <hr>
-
-                <ul class="pager">
-                    
-                    <li class="previous">
-                        <a href="/2017/07/03/amc/" data-toggle="tooltip" data-placement="top" title="Attention guided Multi-modal Correlation Learning for Image Search">&larr; Previous Post</a>
-                    </li>
-                    
-                    
-                </ul>
-
-            </div>
-        </div>
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        
+<div class="row project-wrapper">
+<!-- <div class="post-preview"> -->
+    <div class="col-md-7 project-cover">
+        
+            <img class="img-reponsive" src="../../img/post-2012-06-01-abs.png" alt="">
+        
+            <!-- <img class="img-responsive" src="../../img/post-bg-default.jpg" alt=""> -->
+            <!-- <img class="img-responsive" src="http://placehold.it/700x350"> -->
     </div>
-</article>
+    <div class="col-md-5">
+
+        <!-- <a href="/2012/06/01/sr/"> -->
+        <h3 class="post-title">            Image Super-Resolution Via Analysis Sparse Prior
+        </h3>
+         
+        <!-- </a>    -->
+        <p class="post-meta">Posted by Kan Chen on June 1, 2012</p>   
+        <p><p class="bigger_p_font">In this letter, we present a new algorithm for a single image super-resolution using the analysis sparse prior in the l-alpha-beta color space. Experimental results show that our algorithm outperforms other existing state-of-the-art methods. In addition, due to the high scalability of our algorithm, key modules of the proposed algorithm can be integrated with other super resolution
+algorithms.</p>
+</p>
+        
+            <a class="btn btn-primary" href="../../docs/kan_chen_sr.pdf">View Details <span class="glyphicon glyphicon-chevron-right"></span></a>
+        
+        
+    </div>
+<!--     <a href="/2012/06/01/sr/">
+        <h2 class="post-title">            Image Super-Resolution Via Analysis Sparse Prior
+        </h2>
+        
+    </a> -->
+    <!-- <p class="post-meta">Posted by Kan Chen on June 1, 2012</p> -->
+</div>
+<hr>
+
+
+<!-- Pager -->
+
+<ul class="pager">
+    
+    <li class="previous">
+        <a href="/blog/">&larr; Newer Posts</a>
+    </li>
+    
+    
+</ul>
+
+
+    </div>
+</div>
 
 <hr>
 
@@ -159,7 +208,7 @@
                     
                     
                     <li>
-                        <a href="https://github.com/wind09">
+                        <a href="https://github.com/kanchen-usc">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -168,7 +217,8 @@
                     </li>
                     
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Kan Chen 2017</p>
+                <br>
+                <p class="copyright text-muted">Copyright &copy; Kan Chen 2019</p>
             </div>
         </div>
     </div>
