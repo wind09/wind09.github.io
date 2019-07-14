@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "Hackathon: Build a Recipe Search Website"
+date:       2018-11-10 12:00:00
+author:     "Kan Chen, Chuanxi Zhang"
+abstract-img: "../../img/post-2018-11-10-abs.jpg"
+doc-link: "http://techbow.com/hackathon-usc1024/"
+code-link: "https://github.com/ChuanxiZhang/Real-Hackathon-Web"
+---
+
+<p class="bigger_p_font">In this post, we present our work for designing a receipe search website during the 1st Techbow Hackathon. The challenge lies in front-end design and good communication with backend and error handling. During the construction, we use bootstrap framework for the Html part, Vue.js + jQuery in the Javascript part and PHP as the backend server. The website is non-comercial and is only for demo use. Our responsive desgin with real-time API helped us win the champion in the hackathon.</p>
