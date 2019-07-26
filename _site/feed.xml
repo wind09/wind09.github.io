@@ -5,9 +5,31 @@
     <description>Welcome to Kan Chen's personal website!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Jul 2019 01:32:04 -0700</pubDate>
-    <lastBuildDate>Fri, 12 Jul 2019 01:32:04 -0700</lastBuildDate>
+    <pubDate>Fri, 26 Jul 2019 01:06:11 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Jul 2019 01:06:11 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Billion-scale semi-supervised learning for image classification</title>
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;This paper presents a study of semi-supervised learning with large convolutional networks. We propose a pipeline, based on a teacher/student paradigm, that leverages a large collection of unlabelled images (up to 1 billion). Our main goal is to improve the performance for a given target architecture, like ResNet-50 or ResNext. We provide an extensive analysis of the success factors of our approach, which leads us to formulate some recommendations to produce high-accuracy models for image classification with semi-supervised learning.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jul 2019 05:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019/07/12/semi/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/12/semi/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hackathon: Build a Recipe Search Website</title>
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;In this post, we present our work for designing a receipe search website during the 1st Techbow Hackathon. The challenge lies in front-end design and good communication with backend and error handling. During the construction, we use bootstrap framework for the Html part, Vue.js + jQuery in the Javascript part and PHP as the backend server. The website is non-comercial and is only for demo use. Our responsive desgin with real-time API helped us win the champion in the hackathon.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Nov 2018 04:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018/11/10/hackthon/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/10/hackthon/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Knowledge Aided Consistency for Weakly Supervised Phrase Grounding</title>
@@ -27,6 +49,17 @@
         <pubDate>Fri, 01 Sep 2017 05:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/09/01/qrc/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/09/01/qrc/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Graduation Roadtrip on Route 66</title>
+        <description>&lt;p class=&quot;bigger_p_font&quot;&gt;This is my first blog on travel. I hope to share my experience on the roadtrip, which may provide useful tips for your future plan. I traveled with my roomates and friends for master graduation. We spent 7 days on the Route 66 and went through ~2/3 of USA. This experience is unique and I would like to share our plan, images and my feelings in this post (in Chinese). &lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 05:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/07/05/route66/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/05/route66/</guid>
         
         
       </item>

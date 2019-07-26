@@ -409,7 +409,14 @@ div.container {
   width:80%;
   margin: 0 auto;
   font-size: 14px;
+  max-width: 1170px;
+}
 
+div.container-nav {
+  width:100%;
+  margin: 0 auto;
+  font-size: 14px;
+  max-width: 1200px;
 }
 
 div.project-cover {
