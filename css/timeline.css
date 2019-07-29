@@ -4,7 +4,7 @@
 	font-size: 14px;
 	max-width: 1170px;
 	overflow-y: auto;
-	overflow-x: hidden;
+	overflow-x: auto;
 	max-height: 480px;
 }
 
