@@ -105,6 +105,10 @@
 	background-color: #3b5998!important
 }
 
+.timeline-badge.waymo{
+	background-color: #006eff!important
+}
+
 .timeline-title{
 	margin-top: 0;
 	color: inherit;
